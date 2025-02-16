@@ -39,7 +39,7 @@ main {
 
 
 #monH1 {
-    font-size: 4em;
+    font-size: 4vh;
     font-family: "Public Sans", serif;
     color: azure;
 }
@@ -52,7 +52,7 @@ main {
 
 
 #display {
-    font-size: 5rem;
+    font-size: 6vh;
     font-family: "Public Sans", serif;
     font-weight: bold;
     text-shadow: 2px 2px 2px #000000;
@@ -191,4 +191,9 @@ main {
 
 #minuteur:hover {
     scale: 1.1;
+}
+
+@media screen and (max-width : 320px) {
+
+    html, body {overflow: hidden}
 }
