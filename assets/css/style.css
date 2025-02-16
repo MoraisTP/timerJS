@@ -39,7 +39,7 @@ main {
 
 
 #monH1 {
-    font-size: 4em;
+    font-size: 4vh;
     font-family: "Public Sans", serif;
     color: azure;
 }
@@ -52,12 +52,15 @@ main {
 
 
 #display {
-    font-size: 5rem;
+    font-size: 6vh;
     font-family: "Public Sans", serif;
     font-weight: bold;
     text-shadow: 2px 2px 2px #000000;
     color: #d9d2d2;
     margin-bottom: 25px;
+    max-width: 310px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #startBtn, #stopBtn, #resetBtn {
@@ -102,7 +105,7 @@ main {
     position: absolute;
     top: 15px;
     left: 15px;
-    width: 160px;
+    width: 222px;
     height: 50px;
     line-height: 48px;
     background: #000;
@@ -191,4 +194,25 @@ main {
 
 #minuteur:hover {
     scale: 1.1;
+}
+
+label {
+    text-align: center;
+    font-size: large;
+    display: block !important;
+}
+
+input {
+    padding: 7px;
+    border-radius: 10px;
+    color: #081b9b;
+    font-size: large;
+}
+
+
+@media screen and (max-width: 320px) {
+
+    html, body {
+        overflow: hidden
+    }
 }
