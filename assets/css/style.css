@@ -65,6 +65,7 @@ main {
 }
 
 #startBtn, #stopBtn, #resetBtn {
+    min-width: 147px;
     font-size: 2rem;
     padding: 10px 30px;
     margin-bottom: 30px;
@@ -208,6 +209,7 @@ input {
     border-radius: 10px;
     color: #081b9b;
     font-size: large;
+    margin: 5px;
 }
 
 
