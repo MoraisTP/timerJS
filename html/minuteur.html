@@ -33,6 +33,8 @@
                 <input type="number" id="millisecondes" name="temps" placeholder="Millisecondes">
             </div>
             <div id="display">00:00:00:00</div>
+            <progress id="barProgression" value="0" max="100"></progress>
+            <audio id="finTimerSon" src="/assets/aud/finMinuteur.mp3" preload="auto"></audio>
             <div>
                 <button id="startBtn" onclick="start()">Start</button>
                 <button id="stopBtn" onclick="stop()">Stop</button>
