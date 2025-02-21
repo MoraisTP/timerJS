@@ -59,12 +59,17 @@ Arrêter ou réinitialiser selon le besoin
 ## Améliorations possibles
 
 ● Gérer plusieurs minuteurs en même temps.
+
 ● Sauvegarder les timers dans une base de données MySQL
+
 ● Afficher une liste de timers enregistrés avec possibilité de les recharger, modifier,
 supprimer.
+
 ● Gestion des états : "actif", "en pause", "terminé" pour chaque timer dans la base de
 données.
+
 ● Affichage des timers enregistrés sur une page dédiée avec options d’action.
+
 ● Utilisation de PHP pour la gestion des interactions avec la base de données.
 
 
