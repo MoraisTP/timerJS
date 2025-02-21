@@ -1,4 +1,6 @@
 # Minuteur avec Barre de Progression et Changement de Couleur
+![plot](./assets/img/gitimg.png)
+
 
 ## Description
 
