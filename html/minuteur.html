@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <!--    Metas-->
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta name="description"
+          content="Besoin d'un timer ou d'un minuteur ? Ne cherchez plus, appuyez juste sur Start et c'est parti ! ! !">
+    <title>Timer et Chrono, le tout en 1 !</title>
+    <meta content="all" name="robots"/>
+    <meta content="MTP - Timer et Chrono" property="og:title"/>
+    <meta content="Timer et chrono : Le tout en un très facile d'accès..."
+          property="og:description"/>
+    <!--    Fin metas-->
+    <!--    Links-->
+    <link href="/assets/img/favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <!--Fin Links-->
+</head>
+<body>
+<main>
+    <!--BG-->
+    <video autoplay muted loop id="maVideo">
+        <source src="/assets/vid/minuteurBg.mp4" type="video/mp4">
+    </video>
+    <section class="chrono">
+        <h1 id="monH1">Minuteur</h1>
+        <div class="container">
+            <div>
+                <input type="number" id="heures" min="0" max="60" name="temps" placeholder="Heures">
+                <input type="number" id="minutes" min="0" max="60" name="temps" placeholder="Minutes">
+                <input type="number" id="secondes" min="0" max="60" name="temps" placeholder="Secondes">
+                <input type="number" id="millisecondes" min="0" max="60" name="temps" placeholder="Millisecondes">
+            </div>
+            <div id="display">00:00:00:00</div>
+            <progress id="barProgression" value="0" max="100"></progress>
+            <audio id="finTimerSon" src="/assets/aud/finMinuteur.mp3" preload="auto"></audio>
+            <div>
+                <button id="startBtn" onclick="start()">Start</button>
+                <button id="stopBtn" onclick="stop()">Stop</button>
+                <button id="resetBtn" onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </section>
+    <a id="minuteur" href="../index.html"><span>Chronomètre</span></a>
+</main>
+<script src="https://kit.fontawesome.com/26d2d5baaa.js" crossorigin="anonymous"></script>
+<script src="/assets/js/minuteur.js" defer></script>
+</body>
+</html>
